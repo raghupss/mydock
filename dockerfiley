@@ -1,0 +1,4 @@
+FROM ubuntu:latest
+RUN apt install tree -y
+RUN apt install nano -y
+RUN apt update
